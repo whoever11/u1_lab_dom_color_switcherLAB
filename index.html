@@ -3,17 +3,25 @@
 <head>
   <title>Color Scheme Switcher</title>
   <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" />
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
 </head>
-	<body>
-	  <ul id="switcher">
-	    <li class='one' id="redButton"></li>
-	    <li class='two' id="whiteButton"></li>
-	    <li class='three' id="blueButton"></li>
-	    <li class='four' id="yellowButton"></li>
-	  </ul>
-	  <h1>Color Scheme Switcher</h1>
-	  <p>Try clicking on one of the colors above to change the colors on this page!</p>
-	  <script src='js/main.js'></script>
-	</body>
+  <body>
+    <ul class="switcher js-buttons">
+      <li id="redButton">
+        <a class="button red js-button" href="#" data-color="red"></a>
+      </li>
+      <li id="whiteButton">
+        <a class="button white js-button" href="#" data-color="white"></a>
+      </li>
+      <li id="blueButton">
+        <a class="button blue js-button" href="#" data-color="blue"></a>
+      </li>
+      <li id="yellowButton">
+        <a class="button yellow js-button" href="#" data-color="yellow"></a>
+      </li>
+    </ul> 
+    <h1>Color Scheme Switcher</h1>
+    <p>Try clicking on one of the colors above to change the colors on this page!</p>
+    <script src='js/main.js' type="text/javascript"></script>
+  </body>
 </html>
+
