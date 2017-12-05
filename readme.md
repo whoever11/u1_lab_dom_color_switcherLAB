@@ -6,4 +6,4 @@ The only downside is none of us know Javascript!
 
 Update the `script.js` file such that when a user clicks on one of the colored dots the background color of the entire page changes to match that dot. You should not need to change any HTML or CSS.
 
-When you're done, [it should display this functionality](http://ga-wdi-exercises.github.io/color-scheme-switcher/).
+When you're done, [it should display this functionality](https://git.generalassemb.ly/pages/ga-wdi-exercises/color-scheme-switcher/).
