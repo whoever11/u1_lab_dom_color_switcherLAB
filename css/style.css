@@ -6,6 +6,16 @@ body {
   line-height: 1.5;
 }
 
+li a {
+  display: block;
+  float: left;
+  width: 30px;
+  height: 30px;
+  margin: 0 15px 15px 0;
+  border-radius: 18px;
+  border: 3px solid black;
+}
+
 h1 {
   line-height: 1.25;
   margin: 1em 0 0;
@@ -21,28 +31,18 @@ p {
   overflow: hidden;
 }
 
-.button {
-  display: block;
-  float: left;
-  width: 30px;
-  height: 30px;
-  margin: 0 15px 15px 0;
-  border-radius: 18px;
-  border: 3px solid black;
-}
-
-.button.red {
+.red {
   background-color: red;
 }
 
-.button.white {
+.white {
   background-color: white;
 }
 
-.button.blue {
+.blue {
   background-color: blue;
 }
 
-.button.yellow {
+.yellow {
   background-color: yellow;
 }
