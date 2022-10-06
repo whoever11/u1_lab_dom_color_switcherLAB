@@ -1,4 +1,4 @@
-# Color Scheme Switcher
+# DOM Color Scheme Switcher
 
 Attached is the completed HTML and CSS for an incredibly advanced website. In anticipation of the millions of viewers it's going to draw, we'd like to let users customize their experience by choosing a color scheme for the site.
 
