@@ -3,7 +3,7 @@ console.log('working')
 
 // red button
 const red = document.querySelector('.red')
-const redElement = document.querySelector('.red')
+
 
 red.addEventListener('click', () => {
     document.body.classList.toggle('red')
