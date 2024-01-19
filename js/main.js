@@ -14,7 +14,6 @@ red.addEventListener('click', () => {
 
 // white button
 const white = document.querySelector('.white')
-const whiteElement = document.querySelector('.white')
 
 white.addEventListener('click', () => {
     document.body.classList.toggle('white')
@@ -25,7 +24,6 @@ white.addEventListener('click', () => {
 
 // blue button
 const blue = document.querySelector('.blue')
-const blueElement = document.querySelector('.blue')
 
 blue.addEventListener('click', () => {
     document.body.classList.toggle('blue')
@@ -36,7 +34,6 @@ blue.addEventListener('click', () => {
 
 // yellow button
 const yellow = document.querySelector('.yellow')
-const yellowElement = document.querySelector('.yellow')
 
 yellow.addEventListener('click', () => {
     document.body.classList.toggle('yellow')
